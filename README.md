@@ -18,3 +18,12 @@ git commit -m "First commit"
 
 # Brief log of commits
 git log --oneline
+
+# Go back to a previous commit
+git checkout <code> <file name>
+git reset HEAD <file name>
+git checkout -- <file name>
+
+# Using an online repository
+git remote add origin https://github.com/jl-martinez89/git-test.git
+git push -u origin master
