@@ -9,4 +9,12 @@ git config --list
 git init
 git status
 
-# Add and commit files to the repository
+# Add files to the staging repository area
+git add .
+git add <file name>
+
+# Committing files to the repository
+git commit -m "First commit"
+
+# Brief log of commits
+git log --oneline
